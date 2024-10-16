@@ -22,7 +22,7 @@ public class Member
         {
             BorrowedBooks.Add(book);
             library.RemoveBook(isbn);
-            Console.WriteLine($"{Name} borrowed: {book}");
+            Console.WriteLine($"{Name}'s borrowed: {book}");
         }
         else
         {
